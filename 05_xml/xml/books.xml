@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE books SYSTEM "books.dtd">
+<books>
+    <book sn="SN12341256">
+        <name>时间简史</name>
+        <author>霍金</author>
+        <price>25</price>
+    </book>
+
+    <book sn="SN1221564">
+        <name>万历十五年</name>
+        <author>黄仁宇</author>
+        <price>15</price>
+    </book>
+</books>

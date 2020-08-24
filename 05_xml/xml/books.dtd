@@ -1,0 +1,6 @@
+<!ELEMENT books (book+)>
+<!ELEMENT book (name,author,price)>
+<!ATTLIST book sn CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

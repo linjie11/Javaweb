@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function checkAll() {
+            //按照指定标签名来进行查询并返回结果
+            var inputs = document.getElementsByTagName("input");
+            for (var i = 0;i<inputs.length;i++){
+                inputs[i].checked=true;
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+    兴趣爱好：
+    <input type="checkbox" name="hobby" value="cpp" >C++
+    <input type="checkbox" name="hobby" value="java">Java
+    <input type="checkbox" name="hobby" value="js">javas
+    <br/>
+    <button onclick="checkAll()">全选</button>
+</body>
+</html>

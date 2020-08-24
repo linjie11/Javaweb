@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function onclickFun() {
+            var usernameObj = document.getElementById("username");
+            var usernameText = usernameObj.value;
+            var patt = /^\w{5,12}$/;
+
+            var usernameSpanObj = document.getElementById("usernameSpan");
+            //innerHTML表示起始标签和结束标签中的内容，这个属性可读可写
+            //alert(usernameSpanObj.innerHTML);
+
+            // if (patt.test(usernameText)){
+            //     alert("用户名合法！");
+            // }else{
+            //     alert("用户名不合法！");
+            // }
+
+            if (patt.test(usernameText)){
+                usernameSpanObj.innerHTML = "用户名合法";
+                }else{
+                usernameSpanObj.innerHTML = "用户名不合法";
+                }
+        }
+    </script>
+</head>
+<body>
+    用户名：<input type="text" id="username" value="wzg"/>
+    <span id="usernameSpan" style="color: #ff0000;"></span>
+    <button onclick="onclickFun()">校验</button>
+</body>
+</html>
