@@ -8,7 +8,10 @@
       <module fileurl="file://$PROJECT_DIR$/05_xml/05_xml.iml" filepath="$PROJECT_DIR$/05_xml/05_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/Javaweb.iml" filepath="$PROJECT_DIR$/Javaweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_JavaScript/document/document.iml" filepath="$PROJECT_DIR$/02_JavaScript/document/document.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanshe/fanshe.iml" filepath="$PROJECT_DIR$/fanshe/fanshe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanxing/fanxing.iml" filepath="$PROJECT_DIR$/fanxing/fanxing.iml" />
       <module fileurl="file://$PROJECT_DIR$/junit/junit.iml" filepath="$PROJECT_DIR$/junit/junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meiju/meiju.iml" filepath="$PROJECT_DIR$/meiju/meiju.iml" />
     </modules>
   </component>
 </project>
