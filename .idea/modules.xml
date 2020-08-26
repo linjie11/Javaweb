@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/fanxing/fanxing.iml" filepath="$PROJECT_DIR$/fanxing/fanxing.iml" />
       <module fileurl="file://$PROJECT_DIR$/junit/junit.iml" filepath="$PROJECT_DIR$/junit/junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/meiju/meiju.iml" filepath="$PROJECT_DIR$/meiju/meiju.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet_demo/servlet_demo.iml" filepath="$PROJECT_DIR$/servlet_demo/servlet_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_demo/web_demo.iml" filepath="$PROJECT_DIR$/web_demo/web_demo.iml" />
     </modules>
   </component>
 </project>
